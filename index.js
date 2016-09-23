@@ -34,6 +34,8 @@ let app = angular
     };
   }]);
 
+angular.bootstrap(document, ['angular-promise-polyfill']);
+
 if(module && typeof module.exports === 'object') {
   return module.exports = app.name;
 } else {
