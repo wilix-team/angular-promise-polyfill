@@ -34,8 +34,4 @@ let app = angular
     };
   }]);
 
-if(module && typeof module.exports === 'object') {
-  return module.exports = app.name;
-} else {
-  return app;
-}
+module.exports = app.name;
