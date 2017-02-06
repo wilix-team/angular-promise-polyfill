@@ -1,6 +1,6 @@
 'use strict';
 
-let app = angular
+angular
   .module('angular-promise-polyfill', [])
   .run(['$q', '$window', function($q, $window) {
     $window.Promise = function(executor) {
@@ -34,8 +34,6 @@ let app = angular
     };
   }]);
 
-if(module && typeof module.exports === 'object') {
-  return module.exports = app.name;
-} else {
-  return app;
+if (typeof module  === 'object') {
+  module.exports = app.name;
 }
