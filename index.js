@@ -1,6 +1,6 @@
 'use strict';
 
-angular
+var app = angular
   .module('angular-promise-polyfill', [])
   .run(['$q', '$window', function($q, $window) {
     $window.Promise = function(executor) {

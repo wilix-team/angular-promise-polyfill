@@ -1,6 +1,6 @@
 {
   "name": "angular-promise-polyfill",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use angular $q as global Promise polyfill",
   "main": "index.js",
   "scripts": {
