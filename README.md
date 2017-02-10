@@ -9,7 +9,7 @@ This module provide Promise support via using angular $q service.
 Then just include this module to your project and add to main Angular app dependencies.
 
 ```javascript
-const promisePolyfill = require('angular-promise-polyfill');
+require('angular-promise-polyfill');
 
 let app = angular.module('myApp', [promisePolyfill, ...]);
 
