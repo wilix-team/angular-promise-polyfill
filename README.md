@@ -11,7 +11,7 @@ Then just include this module to your project and add to main Angular app depend
 ```javascript
 require('angular-promise-polyfill');
 
-let app = angular.module('myApp', [promisePolyfill, ...]);
+let app = angular.module('myApp', ['angular-promise-polyfill', ...]);
 
 // Now you can use Promise anywhere
 
